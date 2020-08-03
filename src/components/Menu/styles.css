@@ -1,0 +1,43 @@
+.logo {
+   max-width: 105px;
+}
+
+.menu {
+   width: 100%;
+   height: 40px;
+   z-index: 100;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   padding: 5%;
+   background: var(--black);
+   border-bottom: 2px solid var(--primary);
+}
+
+body {
+   --bodyPaddingTop: 40px;
+   padding-top: var(--bodyPaddingTop);
+}
+
+
+
+@media (min-width: 800px) {
+   .logo {
+      max-width: 168px;
+   }
+
+   .menu {
+      height: 94px;
+      justify-content: space-between;
+   }
+
+   body {
+      --bodyPaddingTop: 94px;
+      padding-top: var(--bodyPaddingTop);
+   }
+   
+}
