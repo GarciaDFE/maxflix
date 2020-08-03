@@ -33,6 +33,7 @@ body {
    .menu {
       height: 94px;
       justify-content: space-between;
+      padding: 0 5%;
    }
 
    body {

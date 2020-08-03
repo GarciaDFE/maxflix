@@ -1,7 +1,6 @@
-import React from "react"
 import styled from "styled-components"
 
-const ButtonLink = styled.button`
+const Button = styled.button`
    position: fixed;
    width: 100%;
    left: 0;
@@ -36,15 +35,5 @@ const ButtonLink = styled.button`
    }
 
 `
-
-const Button = ({ className="button-link", 
-                  children, 
-                  target }) => {
-   return (
-      <ButtonLink className={className} href={target}>
-         {children}
-      </ButtonLink>
-   )
-}
 
 export default Button
